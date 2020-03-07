@@ -1,5 +1,5 @@
 def prime?(number)
-  number.prime
+  number.prime?
   
   # remainder = number % 2 
   # prime_nums = [3, 5, 7, 11]
