@@ -1,4 +1,6 @@
-prime?(integer argument )
-returns boolean -> prime ? true : false 
+def prime?(number)
 
+
+  number ? true : false 
+end
 
