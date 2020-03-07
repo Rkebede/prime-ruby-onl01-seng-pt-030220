@@ -1,7 +1,7 @@
-def prime?(number.abs)
+def prime?(number)
   
-  remainder = number % 2 
-  if number == 2 || number != 1 || remainder != 0
+  remainder = number.abs % 2 
+  if number.abs == 2 || number.abs != 1 || remainder != 0
     true 
   else
     false 
