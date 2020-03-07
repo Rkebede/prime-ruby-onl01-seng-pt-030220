@@ -6,7 +6,7 @@ def prime?(number)
     true
   else
     count = number - 1 
-    while count > 1
+    while count > 2
       if number % count == 0
         return false
       else 
