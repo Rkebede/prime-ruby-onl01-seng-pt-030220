@@ -1,4 +1,4 @@
-def prime?(number = number.abs)
+def prime?(number = (number).abs)
   remainder = number % 2 
   if number == 2 || remainder != 0
     true 
