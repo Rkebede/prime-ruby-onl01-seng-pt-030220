@@ -1,11 +1,9 @@
 def prime?(number)
   remainder = number % 2 
-  if number == 2 || remainder != 0
-    true
-  elsif
-  
+  if number < 2 || remainder == 0
+    false
   else
-    false 
+    true 
   end 
 end
 
