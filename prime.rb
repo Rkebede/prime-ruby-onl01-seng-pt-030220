@@ -4,7 +4,7 @@ def prime?(number)
   i = 2
   
   while number > i 
-    number. 
+    number %  
   
   if i < 2 || (remainder == 0 && number != 2)
     false
