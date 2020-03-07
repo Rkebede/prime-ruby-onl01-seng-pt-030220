@@ -1,5 +1,5 @@
 def prime?(number)
-  number = (number).abs
+  number = number.abs
   remainder = number % 2 
   if number == 2 || remainder != 0
     true 
