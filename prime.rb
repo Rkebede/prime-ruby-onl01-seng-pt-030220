@@ -1,5 +1,5 @@
 def prime?(number)
- not_prime = number % 2 
+  not_prime = number % 2 
   if not_prime
     false 
   else
