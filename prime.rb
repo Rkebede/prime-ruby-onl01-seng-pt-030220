@@ -1,6 +1,6 @@
 def prime?(number)
   not_prime = number % 2 
-  if not_prime
+  if not_prime == 0
     false 
   else
     true 
