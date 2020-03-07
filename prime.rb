@@ -9,7 +9,9 @@ def prime?(number)
 end
 
 
+i = 2 
 
+if i < number % 
 
 
 
