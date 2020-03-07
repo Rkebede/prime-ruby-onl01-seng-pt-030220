@@ -1,6 +1,5 @@
 def prime?(numbers)
   not_prime = numbers.map { |number| number % 2 }
-  end 
 end
 
 
