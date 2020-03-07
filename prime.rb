@@ -1,22 +1,20 @@
 def prime?(number)
-  number.prime?
+  remainder = number % 2 
+  prime_nums = [3, 5, 7, 11]
+  i = 2
   
-  # remainder = number % 2 
-  # prime_nums = [3, 5, 7, 11]
-  # i = 2
-  
-  # while i < number 
-  #   prime_nums.each do |num|
-  #     num % 2 
-  # end
+  while i < number 
+    prime_nums.each do |num|
+      num % 2 
+  end
 
       
   
-  # if i < 2 || (remainder == 0 && number != 2)
-  #   false
-  # else
-  #   true 
-  # end 
+  if i < 2 || (remainder == 0 && number != 2)
+    false
+  else
+    true 
+  end 
 end
 
 
