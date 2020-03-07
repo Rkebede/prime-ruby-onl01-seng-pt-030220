@@ -1,6 +1,4 @@
 def prime?(number)
-
-
-  number ? true : false 
+  number == 
 end
 
